@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product</title>
+</head>
+
+<body>
+    <div class="padre">
+        <header class="header">
+            <div class="menu">
+                <a href="#inicio" class="logo">
+                    <img src="https://vignette.wikia.nocookie.net/overwatch/images/4/4a/Meka_logo.png/revision/latest/scale-to-width-down/350?cb=20160519014424"
+                        alt="logo meka" id="header-img">
+                </a>
+                <nav class="nav" id="nav-bar">
+                    <a href="#info-sw" class="nav-link">Switches</a>
+                    <a href="#demo" class="nav-link">Demo</a>
+                    <a href="" class="nav-link">Comprar</a>
+                </nav>
+            </div>
+        </header>
+        <section class="section">
+            <div class="banner">
+                <h1 class="titulo-banner">
+                    Personaliza tu teclado
+                </h1>
+                <p class="descripcion-banner">
+                    Teclados a la medida para todas las necesidades y gustos. <br>Contamos con diferentes tipos de
+                    swtich.
+                </p>
+            </div>
+            <div class="garantias">
+                <div class="col">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h2>Fast Shipping</h2>
+                    <p>Your product will be delivered within the first 48 hours</p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-shield-alt"></i>
+                    <h2>One year warranty</h2>
+                    <p>Product free from defects in workmanship and materials, under recommended use and conditions.</p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-shield-alt"></i>
+                    <h2>Safe transactions</h2>
+                    <p>Better safety and security in every purchase.</p>
+                </div>
+            </div>
+            <!-- tipos de switches -->
+            <section class="switches">
+                <article class="switch-b">                    
+                    <div class="info-sw">
+                        <h2>Blue Switch</h2>
+                        <p>The most popular options, this switch offers audio and tactile feedback when preseed. <br>The
+                            switch is actuated when pressing halfway down, this means that eventualy you can use this
+                            feedback to type faster by using less effort and not pushing the key all the way down.</p>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="far fa-heart"></i></span>Tactile feedback</li>
+                            <li><span class="fa-li"><i class="far fa-heart"></i></span>Clicky sound when pressed</li>
+                        </ul>
+                        <button class="button">Learn More</button>
+                    </div>
+                    <div class="sw-img">
+                        <img src="images/blue.png" alt="blue switch">
+                    </div>
+                </article>
+                <article class="switch">
+                    <div class="info-sw">
+                        <h2>Red Switch</h2>
+                        <p>We could call this switch the opposite of the blue option, it doesn't provide a tactile
+                            feedback and the characteristic "clicky" sound is absent as well. That is why this option is
+                            the ideal to those who prefer a quiet response while typing.</p>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="far fa-heart"></i></span>Non tactile feedback</li>
+                            <li><span class="fa-li"><i class="far fa-heart"></i></span>More quiet typing compared to the
+                                blue switch</li>
+                            <li><span class="fa-li"><i class="far fa-heart"></i></span>Preferred by gamers</li>
+                        </ul>
+                        <button class="button">Learn More</button>
+                    </div>
+                    <div class="sw-img">
+                        <img src="images/red.png" alt="blue switch">
+                    </div>
+                </article>
+                <article class="switch-b">
+                    <div class="info-sw">
+                        <h2>Brown Switch</h2>
+                        <p>The perfect option for those who like a tactile feedback but dont't like the "clicky" sound
+                            of the blue switches.</p>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="far fa-heart"></i></span>Tactile feedback</li>
+                            <li><span class="fa-li"><i class="far fa-heart"></i></span>Silent when pressed</li>
+                        </ul>
+                        <button class="button">Learn More</button>
+                    </div>
+                    <div class="sw-img">
+                        <img src="images/brown.png" alt="blue switch">
+                    </div>
+                </article>
+            </section>
+            <div class="demo" id="demo">
+                <div class="video">
+                    <iframe  height="315" src="https://www.youtube.com/embed/Cs9fP3L5SwM" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+                    </iframe>
+                </div>
+            </div>
+            <div class="news">
+                <form action="" class="letter" action=" https://www.freecodecamp.com/email-submit" method="GET">
+                    <label for="email"><h2>Subscribe to our newsletter</h2></label>
+                    <input type="email" placeholder="correo" id="email"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    <button type="submit" class="btn-enviar">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
